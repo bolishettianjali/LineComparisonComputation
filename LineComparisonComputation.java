@@ -9,6 +9,11 @@ public class LineComparisonComputation {
 		 double LengthOfaLine2=Math.sqrt((Math.pow((a2-a1),2))+(Math.pow((b2-b1),2)));
 		 System.out.println("LengthOfaLine1 :" +LengthOfaLine1);
 		 System.out.println("LengthOfaLine2 :" +LengthOfaLine2);
+			if (LengthOfaLine1 == LengthOfaLine2) {
+			System.out.println("Length of two line are equal");
+		} else {
+			System.out.println("Two lengths are not equal");
+		}
 	}
 
 }
